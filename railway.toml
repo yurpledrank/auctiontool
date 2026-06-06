@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "npx serve@14 dist -l $PORT -s"
+healthcheckPath = "/"
